@@ -710,6 +710,7 @@ h6 {
   padding: 11px 20px 7px;
   font-size: 1.25rem;
   font-family: Lena;
+  text-align: center;
   border-radius: .1875rem;
   border: 1px solid var(--primary);
   transition: 650ms cubic-bezier(.4,0,.2,1)
@@ -811,13 +812,14 @@ h6 {
   line-height: 166%;
   list-style: disc
 }
-.open-job__link {
+.open-job__wrapper {
   display: flex;
   justify-content: center
 }
 .open-job__button {
   padding: 11px 20px 7px;
   font-family: Lena;
+  text-align: center;
   border-radius: .1875rem;
   border: 1px solid var(--bg-accent);
   transition: 650ms cubic-bezier(.4,0,.2,1)
@@ -854,6 +856,7 @@ h6 {
   padding: 11px 20px 7px;
   font-size: 1.25rem;
   font-family: Lena;
+  text-align: center;
   border-radius: .1875rem;
   border: 1px solid var(--primary);
   transition: 650ms cubic-bezier(.4,0,.2,1)
@@ -938,6 +941,7 @@ h6 {
   padding: 11px 20px 7px;
   font-size: 1.25rem;
   font-family: Lena;
+  text-align: center;
   border-radius: .1875rem;
   border: 1px solid var(--primary);
   transition: 650ms cubic-bezier(.4,0,.2,1)
