@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ContactPage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240425084934">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://www.google.com/recaptcha/api.js?_v=20240425084934"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="../index.html" class="header__link-logo">
+						<img src="img/logo.svg" alt="Image" class="header__logo">
+					</a>
+					<nav class="header__navigations">
+						<ul class="header__list">
+							<li class="header__item">
+								<a href="../index.html" class="header__link">Cookies</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="header__link">Locations</a>
+							</li>
+							<li class="header__item">
+								<a href="../story.html" class="header__link">About </a>
+							</li>
+							<li class="header__item">
+								<a href="../jobs.html" class="header__link">Jobs</a>
+							</li>
+							<li class="header__item">
+								<a href="../catering.html" class="header__link">Catering</a>
+							</li>
+							<li class="header__item">
+								<a href="../franchising.html" class="header__link">Franchise</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="../index.html" class="menu__link">Cookies</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Locations</a>
+								</li>
+								<li class="menu__item">
+									<a href="../story.html" class="menu__link">About </a>
+								</li>
+								<li class="menu__item">
+									<a href="../jobs.html" class="menu__link">Jobs</a>
+								</li>
+								<li class="menu__item">
+									<a href="../catering.html" class="menu__link">Catering</a>
+								</li>
+								<li class="menu__item">
+									<a href="../franchising.html" class="menu__link">Franchise</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero-contact">
+				<div class="hero-contact__container">
+					<div class="hero-contact__body">
+						<h2 class="hero-contact__title"><b>Contact</b> Cookie Couture</h2>
+						<p class="hero-contact__text">Ask for more information using this form. We will get in touch with you.</p>
+					</div>
+				</div>
+			</section>
+			<section class="form-contact">
+				<div class="form-contact__container">
+					<div class="form-contact__body">
+						<form action="#" class="form-contact__form">
+							<div class="form-contact__radio-wrapp">
+								<h2 class="form-contact__title">Topic*</h2>
+								<div class="form-contact__wrapper">
+									<input id="jobs" type="checkbox" name="jobs" value="jobs" class="form-contact__jobs real-checkbox">
+									<label for="jobs" class="form-contact__subtitle">Jobs</label>
+								</div>
+								<div class="form-contact__wrapper">
+									<input id="franchising" type="checkbox" name="franchising" value="franchising" class="form-contact__franchising real-checkbox">
+									<label for="franchising" class="form-contact__subtitle">Franchise</label>
+								</div>
+								<div class="form-contact__wrapper">
+									<input id="catering" type="checkbox" name="catering" value="catering" class="form-contact__catering real-checkbox">
+									<label for="catering" class="form-contact__subtitle">Catering</label>
+								</div>
+								<div class="form-contact__wrapper">
+									<input id="media" type="checkbox" name="media" value="media" class="form-contact__media real-checkbox">
+									<label for="media" class="form-contact__subtitle">Media &#38; Press</label>
+								</div>
+								<div class="form-contact__wrapper">
+									<input id="others" type="checkbox" name="others" value="others" class="form-contact__others real-checkbox">
+									<label for="others" class="form-contact__subtitle">Others</label>
+								</div>
+							</div>
+							<label for="name" class="form-contact__label">Name*
+								<input type="text" name="user name" id="name" required placeholder="Your name" class="form-contact__name">
+							</label>
+							<label for="email" class="form-contact__label">Email*
+								<input type="email" name="user email" id="email" required placeholder="Your email" class="form-contact__email">
+							</label>
+							<label for="phone" class="form-contact__label">Phone*
+								<input type="tel" name="user phone" id="phone" required placeholder="Your phone number" class="form-contact__phone">
+							</label>
+							<label for="msg" class="form-contact__label">Message*
+								<textarea name="user msg" id="msg" placeholder="Your message" class="form-contact__msg"></textarea>
+							</label>
+							<div class="form-contact__wrapp">
+								<input type="checkbox" name="agree" id="agree" required class="form-contact__checkbox real-checkbox">
+								<label for="agree" class="form-contact__agree">By providing my data, I agree that cookie couture may
+									contact me and I agree to the terms and conditions and privacy policy.*</label>
+							</div>
+							<div class="g-recaptcha" data-sitekey="0000000000000000000000"></div>
+							<button type="submit" class="form-contact__button">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__top-storey">
+						<a href="#" class="footer__link-logo">
+							<img src="img/logo-white.svg" alt="Image logo">
+						</a>
+						<ul class="footer__list-first">
+							<li class="footer__item"><a href="../contact.html" class="footer__item-link">Contact</a></li>
+							<li class="footer__item"><a href="#" class="footer__item-link">Press</a></li>
+							<li class="footer__item"><a href="../jobs.html" class="footer__item-link">Jobs</a></li>
+							<li class="footer__item"><a href="../franchising.html" class="footer__item-link">Franchise</a></li>
+						</ul>
+						<ul class="footer__list-second">
+							<li class="footer__item"><a href="../story.html" class="footer__item-link">About Us</a></li>
+							<li class="footer__item"><a href="#" class="footer__item-link">Cookie Menu</a></li>
+							<li class="footer__item"><a href="#" class="footer__item-link">Locations</a></li>
+							<li class="footer__item"><a href="../catering.html" class="footer__item-link">Catering</a></li>
+						</ul>
+						<form action="#" class="footer__radio">
+							<input type="radio" id="DE" name="language" value="DE" checked class="footer__button-de footer__button" />
+							<label for="DE" class="footer__label-de footer__label">DE</label>
+							<input type="radio" id="ENG" name="language" value="ENG" class="footer__button-eng footer__button" />
+							<label for="ENG" class="footer__label-eng footer__label">ENG</label>
+						</form>
+					</div>
+					<div class="footer__bottom-storey">
+						<div class="footer__wrapper-social">
+							<h2 class="footer__title">Follow us</h2>
+							<ul class="footer__social-list">
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__link-social">
+										<img src="img/inst.svg" alt="Image instagram">
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__link-social">
+										<img src="img/tiktok.svg" alt="Image tiktok">
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="#" target="_blank" class="footer__link-social">
+										<img src="img/link.svg" alt="Image linkedin">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ul class="footer__unknow-list">
+							<li class="footer__unknow-item"><a href="../inprint.html" class="footer__unknow-link">Impressum</a></li>
+							<li class="footer__unknow-item"><a href="../policy.html" class="footer__unknow-link">Datenschutz</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240425084934"></script>
+</body>
+
+</html>
